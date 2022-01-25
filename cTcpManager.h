@@ -8,7 +8,7 @@
 
 using namespace std;
 const static int RECV_MAX = 1024;
-
+ 
 class cTcpManager
 {
 private:

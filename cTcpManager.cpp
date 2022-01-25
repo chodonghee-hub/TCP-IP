@@ -41,7 +41,7 @@ cTcpManager::~cTcpManager()
 	cs = nullptr;
 	WSACleanup();
 }
-
+ 
 bool cTcpManager::CheckWinSock()
 {
 	if (WSAStartup(WINSOCK_VERSION, &wsaData) != 0)
